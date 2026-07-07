@@ -1,0 +1,11 @@
+# MongoDB Connection
+spring.data.mongodb.uri=mongodb+srv://USERNAME:PASSWORD@cluster.mongodb.net/healthlink?appName=healthlink-cluster
+
+# Database name
+spring.data.mongodb.database=healthlink
+
+# App port
+server.port=8080
+
+# App name
+spring.application.name=healthlink-backend
