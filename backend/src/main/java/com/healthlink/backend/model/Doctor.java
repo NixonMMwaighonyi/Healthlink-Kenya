@@ -26,6 +26,8 @@ public class Doctor {
     
     private String specialty;
 
+    private String location;
+
     private String hospital;
 
     private String bio;
