@@ -33,7 +33,7 @@ public class DoctorService {
         return doctorRepository.findByLocation(location);
     }
 
-    public List<Doctor> getDoctorByHospital(String hospital) {
+    public List<Doctor> getDoctorsByHospital(String hospital) {
         return doctorRepository.findByHospital(hospital);
     }
 
