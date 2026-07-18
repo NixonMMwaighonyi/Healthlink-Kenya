@@ -29,6 +29,6 @@ public class User {
 
     private String profileImage;
 
-    private boolean enabled = true;
+    private Boolean enabled = true;
     
 }
