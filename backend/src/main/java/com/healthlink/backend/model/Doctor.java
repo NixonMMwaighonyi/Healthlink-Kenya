@@ -40,8 +40,8 @@ public class Doctor {
 
     private List<String> availableTimes;
 
-    private double rating;
+    private Double rating = 0.0;
 
-    private int totalReviews;
+    private Integer totalReviews = 0;
     
 }
